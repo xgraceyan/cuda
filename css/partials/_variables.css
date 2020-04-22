@@ -1,0 +1,27 @@
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* CSS Variables */ 
+
+:root{
+    --primary-color: ;
+    --primary-color2: ;
+    --title-color: ;
+    --text-color: ;  
+    --border-color: ;  
+    --gradient-color: linear-gradient(90deg, # 0%, # 100%);
+    --shadow-color:  0px 10px 30px rgba(118, 85, 225, 0.3);
+    --box-shadow-flat: 0px 5px 0px #c86a40;
+    --box-shadow-flat2: 0px 5px 0px #eb7d4b;
+    --box-shadow-flat-button: 0px 2px 0px #30bae7;
+   
+
+    /* font family variables. */ 
+    --roboto: 'Roboto', cursive;
+    --font: 'Titillium Web', sans-serif;
+} 

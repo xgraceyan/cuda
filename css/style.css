@@ -1,0 +1,247 @@
+/* import fonts from fonts.css file */ 
+@import url(./fonts.css);
+
+
+/* css variables */ 
+@import url(./partials/_variables.css);
+
+/* import global styling */ 
+@import url(./partials/_global.css);
+
+.header_area .main-menu .navbar {
+    background-color: #87509c;
+}
+
+.nav-item .nav-link{
+    color: white;
+    font-family: var(--font);
+    padding-right: 30px;
+    margin-right: 8px;
+    margin-left: 10px;
+
+}
+
+.navbar-nav{
+    padding-left: 1000px;
+    padding-top: 15px;
+}
+
+.navbar img{
+    transform: scale(0.8);
+    padding-top: 25px;
+    padding-left: 200px;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    background-color: #643a79;
+    border-radius: 8px;
+    background-position: left;
+    transition: 0.2s ease-in;
+}
+
+.site-main .site-banner {
+    background-color: #87509c;
+    height: 640px;
+}
+
+.site-main .site-banner .banner-text h1{
+    color: whitesmoke;
+    font-family: var(--font);
+    margin-top: 170px;
+    font-weight: 900;
+    text-align: center;
+    margin-left: 0px;
+    padding-right: 100;
+    font-size: 55px;
+    padding-left: 1;
+}
+
+.button.work-button{
+    background-color: #eb7d4b;
+    border-radius: 3px;
+    color: whitesmoke;
+    font-family: var(--font);
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    box-shadow: var(--box-shadow-flat);
+    margin-top: 40px;
+    margin-left: 450px;
+}
+.button.work-button:hover{
+    background-color: #eb7d4b;
+    box-shadow: var(--box-shadow-flat2);
+    margin-top: 42px;
+    transition: 0.001s ease-in-out;
+}
+
+.site-main .site-services{
+    height: 850px;
+    background-color: #17c2a4;
+}
+
+.site-main .site-services .services-title h1{
+    color: whitesmoke;
+    font-family: var(--font);
+    font-weight: 600;
+    padding-top: 130px;
+    margin-left: 300px;
+    letter-spacing: 5px;
+}
+
+.site-main .site-services .services-title img{
+    margin-left: 500px;
+    color: #14a58c;
+}
+
+.services-title p{
+    color: whitesmoke;
+    font-family: var(--font);
+    margin-left: 250px;
+    padding-right: 300px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.site-services .col-lg-3.col-md-6.col-sm-12{
+    padding-top: 110px;
+}
+
+.site-services .services-text1, .services-text2, .services-text3, .services-text4{
+    color: whitesmoke;
+    font-family: var(--font);
+}
+
+.site-services .services-text1 h3{
+    font-weight: 600;
+    padding-top: 50px;
+    margin-left: -10px;
+}
+.services-text1 p{
+    text-align: center;
+    margin-left: -50px;
+    padding-right: 90px;
+}
+
+
+.site-services .services-text2 h3{
+    font-weight: 600;
+    padding-top: 37px;
+    margin-left: -10px;
+}
+.services-text2 p{
+    text-align: center;
+    margin-left: -80px;
+    padding-right: 90px;
+}
+
+
+.site-services .services-text3 h3{
+    font-weight: 600;
+    padding-top: 30px;
+    margin-left: -30px;
+}
+.services-text3 p{
+    text-align: center;
+    margin-left: -40px;
+    padding-right: 90px;
+}
+
+.services-img1 img{
+    margin-left: -40px;
+}
+
+.services-img2 img{
+    margin-left: 60px;
+    padding-top: 2px;
+}
+
+.site-services .services-text4 h3{
+    font-weight: 600;
+    padding-top: 25px;
+    margin-left: -10px;
+}
+.services-text4 p{
+    text-align: center;
+    margin-left: -5px;
+    padding-right: 70px;
+}
+
+.site-main .site-team {
+    height: 1000px;
+    background-color: #e7f1f8;
+}
+
+.site-team .team-text h1{
+    color: #3c4761;
+    font-family: var(--font);
+    font-weight: bold;
+    letter-spacing: 2.5px;
+    margin-left: 200px;
+ 
+    text-align: center;
+    margin-top: 120px;
+}
+
+.team-text img{
+    margin-left: 475px;
+}
+
+.team-text p{
+    color: #3c4761;
+    font-family: var(--font);
+    margin-left: 200px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.site-team .col-lg-3.col-md-6.col-sm-12 {
+    margin-top: 100px;
+    font-family: var(--font);
+    text-align: center;
+    column-width: initial;
+    column-gap: 1px;
+    
+}
+
+.site-team .col-lg-3.col-md-6.col-sm-12 h3{
+    margin-top: 30px;
+    font-weight: bolder;
+    color: #27283d;
+}
+
+.site-team .col-lg-3.col-md-6.col-sm-12 h4{
+    color: #30bae7;
+    font-size: 18px;
+}
+
+.site-team .col-lg-3.col-md-6.col-sm-12 p{
+    color: #47526b;
+    margin-top: 20px;
+}
+
+.site-team .col-lg-3.col-md-6.col-sm-12 .team-icons{
+    margin-top: 40px;
+    
+}
+.site-team .col-lg-3.col-md-6.col-sm-12 .team-icons img:hover{
+    cursor: pointer;
+    box-shadow: var(--box-shadow-flat-button);
+    transition: 0.3s ease-in-out;
+    
+}
+
+.navbar-nav .nav-item.active{
+    background-color: #643a79;
+    border-radius: 8px;
+   
+    transition: 0.2s ease-in;
+}
+.nav-item.active .nav-link{
+    margin-left: 7px;
+}
+
+.body{
+    font-family: var(--font);
+}
