@@ -10,6 +10,8 @@ You can download the original template here. [https://www.codexcoder.com/product
 The file is in a .PSD format, but you can use online photo editing websites like https://www.photopea.com to open the file and edit it.
 Feel free to contribute to this! I started this project when I was learning HTML. Please be self-respecting human beings when editing.
 
+PLEASE READ CONTRIBUTING.md if you plan on contributing to this project.
+
 # Final Words
 
 Thanks. That is all. 
